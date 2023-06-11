@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <title>Trabajo Practico Front End</title>
+    <link rel="icon" href="TpMediaImg/ICONOICONO.png">
+    <!--colocaion del archivo css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilos2.css">
+</head>
+<body>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+   
+    <!--se van a definir las secciones de la pagina -->
+
+    <nav class="navbar navbar-expand-lg" id="Primer-Nav">
+
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="Nav-Container-One">
+            <img src="TpMediaImg/codoacodo.png" alt="" id="Img-CodoACodo">
+            <h3 class="display-5" id="Text-One-Nav">Conf Bs As</h3>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div id="Nav-Footer">
+                <div class="text-nowrap">
+                    <ul class="navbar-nav"  id="Nav-Text">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#Showcase" id="Element">La Conferencia </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#Los-Oradores" id="Element">Los oradores </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#Comprar-Tickets" id="Element">El lugar y la Fecha </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Formulario" id="Element">Conviértete en Orador </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Compra_De_tickets" id="Element-Special">Comprar tickets </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!--showcase -->
+    <section id="Showcase">
+        <div id="Shadow">
+            <div class="container-flex">
+                <div id="C-One">
+                    <h1 class="text-C-One">Conf Bs As</h1>
+                    <p class="text-C-Two">
+                        Bs As llega por primera vez a Argentina . Un envento para compartir con nuestra comunidad el 
+                        conocimiento y experiencia de los expertos que están creando el futuro de internet . Ven a conocer
+                        miembros del evento , a otros estudiante de Codo a Codo y a los orardores de primer nivel que 
+                        tenemos para ti . Te esperamos! 
+                    </p>
+
+                    <div id="C-Two">
+                        <button type="submit" class="btn btn-outline-light" id="Button-Showcase">Quiero ser orador</button>
+                        <button type="submit" class="btn btn-success" id="Button-Showcase">Comprar tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Los-Oradores">
+        <!--maquetacion de la seccion de los oradores -->
+        <div id="Oradores-Container">
+            <div class="container" id="Spacing-Oradores">
+        
+                <div class="Presentation">
+                    <h3 id="First-text-Oradores" class="display-3">CONOCE A LOS</h3>
+                    <h1 id="Second-text-Oradores">ORADORES</h1>
+                </div>
+    
+                <div class="container" id="Oradores-Presentation">
+                    <div class="card">
+                        <img src="TpMediaImg/zyro-image.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div id="Zona_Speakers">
+                                <h6 class="text-secondary bg-warning" id="Spiker">JavaScript</h6>
+                                <h6 class="text-light bg-primary" id="Spiker-React">React</h6>
+                            </div>
+                        <h5 class="card-title">Steve Jobs</h5>
+                          <p class="card-text">
+                            Lorem Ispum dolor sit amet consectetur adipisicing elit. 
+                            Et voluptatibus preferendis deleniti , totam fuga sequi iste!
+                            Facilis explicabo repellat ut similique incidunt? Ullam nobis 
+                            beatae , corporis facilis veniam magni ratione!
+                          </p>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <img src="TpMediaImg/bill.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div id="Zona_Speakers">
+                                <h6 class="text-secondary bg-warning" id="Spiker">JavaScript</h6>
+                                <h6 class="text-light bg-primary" id="Spiker-React">React</h6>
+                            </div>
+                            <h5 class="card-title">Bill Gates</h5>
+                            <p class="card-text">
+                                Lorem Ispum dolor sit amet consectetur adipisicing elit. 
+                                Et voluptatibus preferendis deleniti , totam fuga sequi iste!
+                                Facilis explicabo repellat ut similique incidunt? Ullam nobis 
+                                beatae , corporis facilis veniam magni ratione!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="TpMediaImg/ada.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div id="Zona_Speakers">
+                                <h6 class="text-light bg-secondary" id="Spiker">Negocios</h6>
+                                <h6 class="text-light bg-danger" id="Spiker">Startups</h6>
+                            </div>
+                            <h5 class="card-title">Ada Lovelace</h5>
+                            <p class="card-text">
+                                Lorem Ispum dolor sit amet consectetur adipisicing elit. 
+                                Et voluptatibus preferendis deleniti , totam fuga sequi iste!
+                                Facilis explicabo repellat ut similique incidunt? Ullam nobis 
+                                beatae , corporis facilis veniam magni ratione!
+                            </p>      
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section id="Comprar-Tickets">
+        <!--utilizacion de un carousel-->
+       <div class="Carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="TpMediaImg/honolulu.jpg" class="d-block w-100" alt="..." id="Img-Carousel-1">
+              </div>
+              <div class="carousel-item">
+                <img src="TpMediaImg/ba3.jpg" class="d-block w-100" alt="..." id="Img-Carousel-2">
+              </div>
+              <div class="carousel-item">
+                <img src="TpMediaImg/ba2.jpg" class="d-block w-100" alt="..." id="Img-Carousel-3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+       </div>
+
+       <div class="Carousel-text">
+        <div id="C-Second-Container-Carousel">
+            <h2 class="text-light" id="First-Carousel-text">Bs As - Octubre</h2>
+            <h5 class="display-5 text-light" id="Text-One-Carousel">
+            Buenos Aires es la provincia y localidad mas grande del estado de Argentina , en los Estados Unidos .Honolulu
+            es las mas sureña de entre las principales ciudades estadounidenses . Aunque el nombre Honululu se refiere al 
+            area urbana en la costa sureste de la isla de Oahu , la ciudad y el condado de Honolulu han formado una 
+            ciudad-condado consolidada que cubre toda la ciudad (Aproximadamente 600 km <sup>2</sup> de superficie).
+            </h5>
+            <button type="submit" class="btn btn-outline-light" id="Conoce-mas">Conocé más</button>
+        </div>
+       </div>
+    </section>
+
+
+    <section id="Formulario">
+
+        <div id="Conviertete-Orador">
+            <div class="Presentation-Form">
+                <h3 class="display-5" id="Text-Form-1">CONVIÉRTETE EN UN</h3>
+                <h1 class="h3" id="Text-Form-2">ORADOR</h1>
+                <p id="Text-Form-3">
+                    Si sos entuciasta , y te gusta compartir tus conocimientos .
+                    <br> Anótate como orador
+                    para dar una <spam id="Specific-Span">charla ignite</spam> . Cuéntanos de qué quires hablar!
+                </p>
+            </div>
+
+            <div class="container" id="Formulario_Presentation">
+                <form action="" method="get" class="form">
+                    <div class="First-Part-Formulario">
+                        <input type="text" class="form-control" id="INPUT" placeholder="Nombre">
+                        <input type="text" class="form-control" id="INPUT" placeholder="Apellido">
+                    </div>
+                    <div class="Second-Part-Formulario">
+                        <textarea name="TEXTAREA" class="form-control" id="TEXTAREA" cols="70" rows="5" placeholder="Sobre qué quieres hablar?"></textarea>
+                        <div id="Text-Help" class="form-text">Recuerda incluir un título a tu charla</div>
+                        <button type="submit" class="btn" id="Button-Form">Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Compra_De_tickets">
+        <section id="TipoDeCliente">
+
+            <div class="block">
+                <div class="intern-block">  
+                   <div class="first-block">
+                    <h1 id="Persona_Bloque">Estudiante</h1>
+                    <h2>Tiene un descuento </h2>
+                    <h3 id="Porciento">80%</h3>
+                    <h4 id="Documentacion">* presentar documentacion</h4>
+                   </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="intern-block">
+                    <div class="Second-block">
+                        <h1 id="Persona_Bloque">Trainee</h1>
+                        <h2>Tienen un descuento</h2>
+                        <h3 id="Porciento">50%</h3>
+                        <h4 id="Documentacion">* presentar documentacion</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!--fijarse de eliminar divs inesesarios-->
+
+            <div class="block">
+                <div class="intern-block">
+                    <div class="third-block">
+                        <h1 id="Persona_Bloque">Junior</h1>
+                        <h2>Tienen un descuento</h2>
+                        <h3 id="Porciento">15%</h3>
+                        <h4 id="Documentacion">* presentar documentacion</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <section>
+        <section id="Formulario-De-Los-Tickets">
+            <div id="General" class="container">
+
+                <div id="IntroduccionTickets">
+                    <p class="display-7" style="text-align: center;">VENTA</p>
+                    <p class="h1" style="text-align: center;">VALOR DEL TICKET $200</p>
+                </div>
+
+                <div id="PrimeraParte">
+                    <input type="text" id="nombre" placeholder="Nombre" class="form-control">
+                    <input type="text" id="apellido" placeholder="Apellido" class="form-control">
+                </div>
+                <br>
+                <div>
+                    <input type="email" id="correo" placeholder="Correo" class="form-control">
+                    <br>
+                </div>
+          
+                <div id="SegundaParte">
+                   <!--boton de mostrar informacion para que me visualice los datos del usuario-->
+                  <button type="button" onclick="mostrarInformacion()" class="btn btn-success">Mostrar información</button>
+                </div>
+                <div id="informacionMostrada"></div>
+            </div>
+            
+            <div id="FormularioDeTickets" class="container">
+              <div id="SeccionEspecifica">
+                <div id="amount">
+                    <label for="CANTIDAD">Cantidad</label>
+                    <br>
+                    <input type="text" id="CantidadCantidadDeBoletos" placeholder="cantidad" class="form-control">
+                </div>
+        
+                <div id="Category">
+                    <label for="CATEGORY">Categoria</label>
+                    <br>
+                    <select id="CategoriaDeLosBoletosSeleccionada" class="form-control">
+                    <option value="Estudiante-Uno" id="Estudiante-Uno">Estudiante</option>
+                    <option value="Trainee-Uno" id="Trainee-Uno">Trainee</option>
+                    <option value="Junior-Uno" id="Junior-Uno">Junior</option>
+                    </select>
+                </div>
+              </div>
+        
+              
+
+              <div id="MuestraDeLostickets">
+                <p style="color: rgb(7, 7, 224);">Total a Pagar : $</p>
+                <p id="resultado"></p>
+                <p>.</p>
+                <p id="CategoriaDeLaCategoriaSeleccionada"></p>
+              </div>
+
+              <div id="SeccionDeBotonesTickets">
+                <button onclick="ReseteoDeDatos()" class="btn btn" id="BorrarInformacion" type="reset">Borrar</button>
+                <button onclick="sumarNumeros()" class="btn btn" id="ResumenDePago">Resumen</button>
+              </div>
+
+            </div>
+        </section>        
+       </section>
+    </section>
+
+    <footer id="FOOTER">
+        <div id="Container-Footer">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <div id="Nav-Footer">
+                        <div class="text-nowrap">
+                            <ul class="navbar-nav"  id="Nav-Footer-Two">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#" id="Element-Footer">Preguntas <br> frecuentes</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#" id="Element-Footer">Contáctanos </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="#" id="Element-Footer">Prensa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="Element-Footer">Conferencias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="Element-Footer">Términos y <br> condiciones </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="Element-Footer">Privacidad</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="Element-Footer">Estudiantes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
